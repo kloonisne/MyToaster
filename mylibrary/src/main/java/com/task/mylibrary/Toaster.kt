@@ -18,7 +18,7 @@ class Toaster {
             val txtMsg:TextView = view.findViewById(R.id.toastMessage)
             txtMsg.text = msg
             val toast = Toast(ctx)
-            toast.setGravity(Gravity.TOP,0,0)
+            toast.setGravity(Gravity.BOTTOM,0,0)
             toast.duration = Toast.LENGTH_LONG
             toast.view =view
             toast.show()
