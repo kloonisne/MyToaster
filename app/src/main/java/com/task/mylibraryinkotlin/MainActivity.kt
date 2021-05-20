@@ -17,16 +17,6 @@ class MainActivity : AppCompatActivity() {
         val txtHello = findViewById<TextView>(R.id.txtHello)
         txtHello.setOnClickListener {
             Toaster.show(this,"Yes I am working!!!! \n Yes I am working!!!! \n Yes I am working!!!! \n Yes I am working!!!!")
-//            val inflater: LayoutInflater = LayoutInflater.from(this)
-//            val view: View = inflater.inflate(
-//                com.task.mylibrary.R.layout.item_toast, (this).findViewById(
-//                    com.task.mylibrary.R.id.toastRoot))
-//            val toast = Toast(this)
-//            toast.setGravity(Gravity.BOTTOM,0,150)
-//            toast.duration = Toast.LENGTH_LONG
-//            toast.view = view
-//            toast.show()
-
         }
     }
 }
