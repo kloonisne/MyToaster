@@ -13,13 +13,14 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#F4F0C7"
+        android:padding="20dp"
         >
         <ImageView
             android:id="@+id/toastImage"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginStart="5dp"
-            android:src="@drawable/ic_baseline_breakfast_dining_24"
+            android:src="@drawable/ic_toaster"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -29,6 +30,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="identify"
+            android:textColor="#000000"
+            android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="@+id/toastImage"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.06"
